@@ -1,0 +1,452 @@
+body {
+     width: 1022px;
+    height: 768px;
+    flex-shrink: 0;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.contenedor {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white
+}
+
+.content-center {
+    width: 1022px;
+    height: 768px;
+    left: 172px;
+    top: 0px;
+    position: absolute;
+    background: #E6E6E6
+}
+
+.content-historial {
+    width: 475px;
+    height: 383px;
+    left: 199px;
+    top: 192px;
+    position: absolute
+}
+
+.title-historial {
+    width: 475px;
+    height: 383px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0073CE;
+    border-radius: 43px
+}
+
+.text-title-historial {
+    width: 415px;
+    height: 39.08px;
+    left: 24px;
+    top: 58.62px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+.text-body-historial {
+    width: 415px;
+    height: 234.49px;
+    left: 24px;
+    top: 117.24px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+
+/*Btn date*/
+.content-btn-date {
+    width: 149px;
+    height: 196px;
+    left: 1015px;
+    top: 379px;
+    position: absolute;
+    line-height: 50px;
+}
+
+.head-btn-date {
+    width: 149px;
+    height: 196px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0073CE;
+    border-radius: 43px
+}
+
+.content-text-btn-date {
+    width: 104px;
+    height: 135px;
+    left: 22px;
+    top: 35px;
+    position: absolute;
+    text-align: center
+}
+
+.text-btn-date-day {
+    color: white;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+.text-btn-date-monthAge {
+    color: white;
+    font-size: 45px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+/*Btn In*/
+.content-btn-in {
+    width: 148px;
+    height: 196px;
+    left: 691px; top: 379px;
+    position: absolute
+}
+
+.back-btn-in {
+    width: 148px;
+    height: 196px;
+    left: 0px; top: 0px;
+    position: absolute;
+    background: #0073CE;
+    border-radius: 43px
+}
+
+.content-icon-btn-in {
+    width: 73px;
+    height: 73px;
+    left: 38px; top: 94px;
+    position: absolute
+}
+
+.sub-content-icon-btn-in {
+    width: 73px;
+    height: 73px;
+    left: 0px; top: 0px;
+    position: absolute
+}
+
+.head-content-icon-btn-in {
+    width: 73px;
+    height: 73px;
+    left: 0px; top: 0px;
+    position: absolute
+}
+
+.text-icon-content-btn-in {
+    width: 64.23px;
+    height: 67.79px;
+    top: 7.60px;
+    position: absolute;
+}
+
+.number-btn-in {
+    width: 104px;
+    height: 29px;
+    left: 22px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+/*Btn out*/
+.content-btn-out {
+    width: 149px;
+    height: 196px;
+    left: 852px;
+    top: 379px;
+    position: absolute
+
+}
+
+.back-btn-out {
+
+
+    width: 149px;
+    height: 196px;
+    left: 0px; top: 0px;
+    position: absolute;
+    background: #0073CE;
+    border-radius: 43px
+}
+
+.content-icon-btn-out {
+    width: 73px;
+    height: 73px;
+    left: 44px; top: 93px;
+    position: absolute
+}
+
+.sub-content-icon-btn-out {
+    width: 73px;
+    height: 73px;
+    left: 0px; top: 0px;
+    position: absolute
+}
+
+.head-content-icon-btn-out {
+    width: 73px;
+    height: 73px;
+    left: 0px; top: 0px;
+    position: absolute
+}
+
+.text-icon-content-btn-out {
+    width: 64.23px;
+    height: 67.79px; top: 7.60px;
+    position: absolute;
+}
+
+.number-btn-out {
+    width: 104px;
+    height: 29px;
+    left: 23px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    word-wrap: break-word
+}
+
+.content-btn-plus {
+    width: 227px;
+    height: 80px;
+    left: 693px; top: 192px;
+    position: absolute
+}
+
+.head-btn-plus {
+    width: 227px;
+    height: 80px;
+    left: 0px; top: 0px;
+    position: absolute;
+    background: #0073CE;
+    box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 192px
+}
+
+.text-btn-plus {
+    width: 159.46px;
+    height: 80px;
+    left: 43.15px; top: 30px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.sign-btn-plus {
+    width: 28.14px;
+    height: 40px; left: 24.20px; top: 30px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.content-btn-less {
+    width: 227px;
+    height: 80px;
+    left: 937px;
+    top: 192px;
+    position: absolute
+}
+
+.head-btn-less {
+    width: 227px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0073CE;
+    box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 192px
+}
+
+.text-btn-less {
+    width: 159.46px;
+    height: 80px;
+    left: 43.15px;
+    top: 30px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.content-sign-btn-less {
+    width: 33.94px;
+    height: 40.11px;
+    left: 24.20px;
+    top: 22px;
+    position: absolute
+}
+
+.sign-btn-less {
+    width: 28.14px;
+    height: 40px;
+    left: 5.80px;
+    top: 5px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    font-family: Roboto;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+
+/*BTN Historial-visitantes*/
+.btn-historial-visitantes {
+    width: 148px;
+    height: 40px;
+    left: 691px;
+    top: 305px;
+    position: absolute
+}
+
+.head-btn-historial-visitantes {
+    width: 148px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0073CE;
+    box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.text-btn-historial-visitantes {
+    width: 134px;
+    height: 40px;
+    left: 7px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+
+}
+
+/*BTN Historial-tarjetas */
+.btn-historial-tarjetas {
+    width: 148px;
+    height: 40px;
+    left: 854px;
+    top: 305px;
+    position: absolute
+}
+
+.head-btn-historial-tarjetas {
+    width: 148px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #0073CE;
+    box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.text-btn-historial-tarjetas {
+    width: 134px;
+    height: 40px;
+    left: 7px;
+    top: 10px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+
+}
+
+.content-title {
+    width: 294px;
+    height: 20px;
+    left: 200px;
+    top: 74px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+/* Title */
+.text-title {
+    text-align: center;
+    color: black;
+    font-size: 57px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+/************ End/ Home *******************/

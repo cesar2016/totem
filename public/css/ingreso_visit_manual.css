@@ -1,0 +1,273 @@
+.content_all {
+
+    width: 100%; height: 100%; position: relative; background: white
+}
+
+.header-sub-title {
+
+    width: 1022px; height: 768px; left: 172px; top: 0px; position: absolute; background: #E6E6E6
+}
+
+.text-sub-title {
+    left: 200px; top: 145px; position: absolute; color: black; font-size: 45px; font-family: Roboto; font-weight: 400; line-height: 5px; letter-spacing: 0.10px; word-wrap: break-word
+}
+
+.content-icon-scan {
+    width: 127px; height: 202px; padding: 17px; left: 632px; top: 137px; position: absolute; justify-content: center; align-items: center; display: inline-flex
+}
+
+.icon-scan {
+    width: 110px; height: 110px;
+}
+
+.body-form {
+    /* width: 573px;
+    height: 244px;
+    left: 447px;
+    top: 329px;
+    position: absolute;
+    background: #0073CE;
+    border-radius: 25px; */
+    width: 519px; height: 244px; left: 409px; top: 329px; position: absolute; background: #0073CE; border-radius: 25px
+  }
+
+  .btn-scan-dni {
+    width: 42px;
+    height: 40px;
+    left: 789px;
+    top: 595px;
+    position: absolute;
+    background: #0073CE;
+    box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+  }
+
+  .btn-scan-dni-icon {
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    top: 9px;
+    position: absolute;
+    /* background: white; */
+    color: white;
+  }
+
+.back-btn-home-circle {
+  width: 42px;
+  height: 40px;
+  left: 708px;
+  top: 596px;
+  position: absolute;
+  background: #0073CE;
+  box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+
+.back-btn-cancel-circle {
+  width: 42px;
+  height: 40px;
+  left: 870px;
+  top: 596px;
+  position: absolute;
+  background: #0073CE;
+  box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+
+.content-icon-btn-cancel {
+  width: 26px;
+  height: 26px;
+  left: 878px;
+  top: 602px;
+  position: absolute;
+}
+
+.icon-btn-cancel {
+  width: 23.67px;
+  height: 23.67px;
+  left: 0.50px;
+  top: 0.50px;
+  position: absolute;
+}
+
+.content-icon-btn-home {
+  width: 38px;
+  height: 38px;
+  left: 710px;
+  top: 595px;
+  position: absolute;
+}
+
+.icon-btn-home {
+  width: 29px;
+  height: 29px;
+  left: 1.10px;
+  top: 1.10px;
+  position: absolute;
+}
+
+.content-btn-arrow-back {
+  width: 42px;
+  height: 40px;
+  left: 622px;
+  top: 596px;
+  position: absolute;
+}
+
+.head-btn-arrow-back {
+  width: 42px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: #0073CE;
+  box-shadow: 2px 3px 0px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+
+.contetnt-icon-btn-arrow-back {
+  width: 38px;
+  height: 38px;
+  padding: 7px;
+  left: 2px;
+  top: 1px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.contetnt-int-icon-btn-arrow-back {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.icon-btn-arrow-back {
+  width: 24px;
+  height: 24px;
+  padding: 7px;
+  left: 7px;
+  top: -33px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  transform: rotate(270deg);
+}
+
+.input-form-alta-v-name {
+  width: 337px;
+  height: 26px;
+  left: 561px;
+  top: 375px;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+}
+
+.input-form-alta-v-lastname {
+    width: 337px;
+    height: 26px;
+    left: 561px;
+    top: 424px;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+}
+
+.input-form-alta-v-doc {
+    width: 337px;
+    height: 26px;
+    left: 561px;
+    top: 474px;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+}
+
+.input-form-alta-v-dato-contact {
+    width: 337px;
+    height: 26px;
+    left: 561px;
+    top: 521px;
+    position: absolute;
+    background: white;
+    border-radius: 5px;
+}
+
+.labels-input-name {
+    left: 484px;
+    top: 378px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.labels-input-lastname {
+    left: 482px;
+    top: 428px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.labels-input-doc {
+    left: 458px;
+    top: 477px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.labels-input-dato-contact {
+    left: 420px;
+    top: 524px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word;
+}
+
+.text-title-form {
+    width: 450px;
+    left: 450px;
+    top: 300px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    /* font-family: Roboto;  */
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
